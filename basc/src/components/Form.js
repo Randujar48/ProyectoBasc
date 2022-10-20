@@ -2,8 +2,10 @@ import React from 'react'
 
 function Form() {
   return (
-    <div>
-        <form>
+    <div className='form-group col-md-2'>
+
+      
+        <form className='container'>
             <h3>Razon Social</h3>
             <input type="text"></input>
             <h3>RNC</h3>
